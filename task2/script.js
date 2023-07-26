@@ -93,6 +93,7 @@ function delbook(e){
     Ui.remobook(ett);
     Ui.showsuccess("Book Removed!!", "success");
     e.preventDefault();
+    console.log("Hello there");
 
 }
 
